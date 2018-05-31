@@ -11,9 +11,7 @@ fn main() {
         }
     }
 
-    println!("cargo:rustc-link-lib=dylib=pci");
     println!("cargo:rustc-link-lib=dylib=dl");
-    println!("cargo:rustc-link-lib=dylib=sensors");
     println!("cargo:rustc-link-lib=dylib=wrap");
     println!("cargo:rustc-link-lib=dylib=m");
     println!("cargo:rustc-link-lib=dylib=netsnmp");
